@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<meta charset="UTF-8">
+
+<title>controlador temporizador</title>
+
+<style>
+    
+    body{
+        background-color: gray;
+    }
+
+    .titulo{
+        font-family: Impact;
+        font-weight: bold;
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .boton{
+        width: 80px;
+        height: 40px;
+        font-weight: bold;
+        border: 5px solid black;
+        border-radius: 50px
+    }
+
+    .diez{
+        background-color: yellow;
+    }
+
+    .treinta{
+        background-color: orange;
+    }
+
+    .unminuto{
+        background-color: green;
+    }
+
+    .display{
+        padding: 30px;
+        border: 2px solid black;
+        font-size: 32px;
+    }
+
+    .menor10{
+        background-color: yellow;
+    }
+
+    .menor5{
+        background-color: white;
+        color: red;
+    }
+
+</style>
+<head>
+    <meta http-equiv="refresh" content="1">
+    <body>
+        <a href='/diez'><button class="boton diez">10s</button></a>
+        <a href='/treinta'><button class="boton treinta">30s</button></a>
+        <a href='/unminuto'><button class="boton unminuto">60s</button></a>
+
+        <div class="titulo">
+            Controlador temporizador
+        </div>
+
+        <div class="display">
+            TIEMPO_RESTANTE:XX
+        </div>
+
+    </body>
+
+
+</head>
+
+</html>
